@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type = "text/javascript">  
+            function pingServer() {   
+                fetch('/ping').then(async e => {
+                    const response = await e.json();
+                    alert(response.message);
+                });
+            }
+        </script>
+        <style>
+            div {
+                margin-top: 46vh;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <h1 style="text-align: center;">
+                {{ .title }}
+            </h1>
+            <button onclick="pingServer()">
+                Press me to ping
+            </button>
+        </div>
+    </body>
+</html>
