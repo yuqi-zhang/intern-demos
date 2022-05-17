@@ -20,7 +20,7 @@ For the Cluster demo, we will be using `oc` (the OpenShift Origin Client), but a
 
 Using `oc` and `kubectl` from the commandline involves a whole lot of typing. It's really useful to have autocompletion for command names, arguments, resource types, and object names. To enable this (if it's not already in your `.bashrc`), you can run
 ```bash
-source <(kc completion bash); source <(oc completion bash)
+source <(kubectl completion bash); source <(oc completion bash)
 ```
 To get more information, use `oc completion --help`. (Note: if you're using `zsh`, that's supported too! Just replace `bash` with `zsh` above)
 
