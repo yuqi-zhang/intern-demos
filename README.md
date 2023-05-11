@@ -24,7 +24,7 @@ source <(kubectl completion bash); source <(oc completion bash)
 ```
 To get more information, use `oc completion --help`. (Note: if you're using `zsh`, that's supported too! Just replace `bash` with `zsh` above)
 
-Finally, you should clone this repo locally (e.g. `git clone https://github.com/yuqi-zhang/intern-2022-demos.git`)
+Finally, you should clone this repo locally (e.g. `git clone https://github.com/yuqi-zhang/intern-demos.git`)
 
 ## Part 1: Container demo: running a basic web server
 

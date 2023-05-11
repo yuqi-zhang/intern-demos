@@ -18,7 +18,7 @@ func main() {
 	r.LoadHTMLGlob("./index.tmpl")
 	r.GET("/", func(c *gin.Context) {
 		c.HTML(http.StatusOK, "index.tmpl", gin.H{
-			"title": "Welcome to the 2022 internship orientation!",
+			"title": "Welcome to the 2023 internship orientation!",
 		})
 	})
 	r.Run(":8080")
